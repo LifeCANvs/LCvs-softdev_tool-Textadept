@@ -47,23 +47,30 @@ the application itself.
 - Windows 8.1/8/7 64-bit: up to [release 11.4][] (and 12.0alpha3)
 - Windows Vista: ?
 - Windows XP 32-bit: up to [release 11.3][] (dropped support for 32-bit Windows with 11.4alpha)
+- Windows 2000: up to release 9.6
+- Windows NT4: up to release 9.6?
 - Windows 98SE: n/a
 - Windows 95: n/a
-- Windows 2000: ?
-- Windows NT4: ?
 
 - macOS X 11: up to [current release][]; minimum requirement since release 12.1 (and 12.0beta)
 - macOS X 10.10: up to 11.5a
 - macOS X 10.7: up to [release 11.3][]
 - macOS X 10.6: up to [release 10.8][]
 
-- FreeBSD 13+: up to release 11.4 (and 11.5alpha) (dropped BSD support with 11.5alpha2); 12.5 restored BSD support
+- FreeBSD 13+: since 12.5 restored BSD support; previously up to release 11.4 (and 11.5alpha) (dropped BSD support with 11.5alpha2)
+  - see FreeBSD [Freshports textadept][] info page
+  - not found in NetBSD pkgsrc
+  - not found in OpenBSD ports
 
-[current release]: https://github.com/orbitalquark/textadept/releases/tag/textadept_12.4
+- Haiku: found [Haiku port of current release][] (12.6) (I have not yet tested this port); not found in HaikuDepot official packages
+
+[current release]: https://github.com/orbitalquark/textadept/releases/tag/textadept_12.6
 [release 12.1]: https://github.com/orbitalquark/textadept/releases/tag/textadept_12.1
 [release 11.4]: https://github.com/orbitalquark/textadept/releases/tag/textadept_11.4
 [release 11.3]: https://github.com/orbitalquark/textadept/releases/tag/textadept_11.3
 [release 10.8]: https://github.com/orbitalquark/textadept/releases/tag/textadept_10.8
+[Freshports textadept]: https://www.freshports.org/editors/textadept/
+[Haiku port of current release]: https://github.com/M0JXD/textadept-haiku
 
 
 ## Download
